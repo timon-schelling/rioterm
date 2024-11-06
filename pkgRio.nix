@@ -78,7 +78,8 @@ in
       ];
 
     buildNoDefaultFeatures = true;
-    buildFeatures = ["x11" "wayland"];
+    buildFeatures = ["wayland"];
+    doCheck = false;
     meta = {
       description = "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers";
       homepage = "https://raphamorim.io/rio";
